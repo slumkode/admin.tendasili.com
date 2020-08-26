@@ -12,11 +12,11 @@
           <li></li>
           <li><?php echo $page_title ?></li>
           <?php if ($this->input->get('opt') == "allsubs") : ?>
-              <li><a href="<?php echo base_url('tenders?opt=allsubs') ?>">All Subscribers</a></li>
+              <li><a href="<?php echo base_url('subscribers?opt=allsubs') ?>">All Subscribers</a></li>
           <?php elseif ($this->input->get('opt') == "subd") : ?>
-              <li><a href="<?php echo base_url('tenders?opt=subd') ?>">Subscribed</a></li>
+              <li><a href="<?php echo base_url('subscribers?opt=subd') ?>">Subscribed</a></li>
           <?php elseif ($this->input->get('opt') == "usubd") : ?>
-              <li><a href="<?php echo base_url('tenders?opt=usubd') ?>">Unsubscribed</a></li>
+              <li><a href="<?php echo base_url('subscribers?opt=usubd') ?>">Unsubscribed</a></li>
           <?php endif ?>
 
       </ul>

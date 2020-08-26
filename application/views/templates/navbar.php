@@ -37,10 +37,7 @@
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="<?php echo base_url('assets/proui/img/placeholders/avatars/avatar.jpg') ?>" alt="avatar"> <i class="fa fa-angle-down"></i>
-<<<<<<< HEAD
                     <!-- <img src="https://www.tendasili.com/wp-content/uploads/2020/07/tendasili-logo.png" alt="avatar"> <i class="fa fa-angle-down"></i> -->
-=======
->>>>>>> version_1.0
                 </a>
                 <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
                     <li class="dropdown-header text-center"><?php echo $userData['fname']." ".$userData['lname'] ?></li>
