@@ -30,11 +30,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <link rel="apple-touch-icon" href="<?php echo base_url('assets/proui/img/icon180.png') ?>" sizes="180x180"> -->
     <!-- END Icons -->
 
+<<<<<<< HEAD
     <link rel="icon" href="https://www.tendasili.com/wp-content/uploads/2020/02/favicon.png" sizes="32x32" />
     <link rel="icon" href="https://www.tendasili.com/wp-content/uploads/2020/02/favicon.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://www.tendasili.com/wp-content/uploads/2020/02/favicon.png" />
     <meta name="msapplication-TileImage" content="https://www.tendasili.com/wp-content/uploads/2020/02/favicon.png" />
 
+=======
+>>>>>>> version_1.0
     <!-- Stylesheets -->
     <!-- Bootstrap is included in its original form, unaltered -->
     <link rel="stylesheet" href="<?php echo base_url('assets/proui/css/bootstrap.min.css') ?>">
